@@ -9,8 +9,8 @@ document.querySelectorAll(".copy-link").forEach((copyLinkParent) => {
       inputField.select();
       navigator.clipboard.writeText(text);
   
-      inputField.value = "Copied! Click WhatsApp & past";
-      setTimeout(() => (inputField.value = text), 10000);
+      inputField.value = "Tap WhatsApp Icon, past & send";
+      setTimeout(() => (inputField.value = text), 50000);
     });
   });
   
