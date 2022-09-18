@@ -333,9 +333,9 @@ body::-webkit-scrollbar-thumb:hover { background: hsl(0, 0%, 70%); }
   border-radius: var(--border-radius-md);
   box-shadow: 0 5px 20px hsla(0, 0%, 0%, 0.15);
   transform: translateX(calc(-100% - 40px));
-  transition: 0.5s ease-in-out;
+  transition: 10s ease-in-out;
   z-index: 5;
-  animation: slideInOut 10s ease-in-out infinite;
+  animation: slideInOut 30s ease-in-out infinite;
 }
 
 @keyframes slideInOut {
@@ -2147,7 +2147,7 @@ footer {
   .header-social-container {
     display: flex;
     align-items: center;
-    gap: 5px;
+    gap: 100px;
   }
 
   .header-social-container .social-link {
@@ -2612,4 +2612,45 @@ footer {
     max-width: 460px;
   }
 
+}
+
+
+
+/* copy */
+.copy-link {
+  --height: 36px;
+
+  display: flex;
+  max-width: 250px;
+}
+
+.copy-link-input {
+  flex-grow: 1;
+  padding: 0 8px;
+  font-size: 14px;
+  border: 1px solid #cccccc;
+  border-right: none;
+  outline: none;
+}
+
+.copy-link-input:hover {
+  background: #eeeeee;
+}
+
+.copy-link-button {
+  flex-shrink: 0;
+  width: var(--height);
+  height: var(--height);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #dddddd;
+  color: #333333;
+  outline: none;
+  border: 1px solid #cccccc;
+  cursor: pointer;
+}
+
+.copy-link-button:hover {
+  background: #cccccc;
 }
