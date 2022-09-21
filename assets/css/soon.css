@@ -1,26 +1,42 @@
-body{
-    margin: 0%;
-    padding: 0%;
-    background-color: blue;
-}
-
-.container {
-    top: 50%;
-    right: 50%;
-    position: absolute;
-    transform: translateY(-50%);
-    color: #fff;
-}
-.content h1 span {
-    color: #ff3753;
-}
-
-.launch-time{
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Lato", sans-serif;
+  }
+  
+  h3 {
+    font-size: 5rem;
+    font-weight: bold;
+    padding: 3rem;
+  }
+  
+  .coming-soon {
+    min-height: 100vh;
     display: flex;
-}
-
-.launch-time div {
-    flex-basis: 100px;
-}
-
-
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    background-size: 100%;
+  }
+  
+  .countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-bottom: 40%;
+  }
+  
+  .day,
+  .hour,
+  .minute,
+  .second {
+    font-size: 3rem;
+  }
+  
+  .waiting {
+    height: 50vh;
+  }

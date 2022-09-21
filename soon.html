@@ -1,53 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./assets/css/soon.css">
-    <title>Under Maintanence</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Countdown timer</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato" />
+  <link rel="stylesheet" href="soon.css" />
 </head>
+
 <body>
-   <div class="container">
-    <h1>Under Mainance</h1>
-    <div class="launch-time">
-        <div>
-            <p id="days">00</p>
-            <span>Days</span>
+  <section class="coming-soon">
+    <div>
+      <h3>Currentrly Under Maintanince.</h3>
+      <div class="countdown">
+        <div class="container-day">
+          <h3 class="day">Time</h3>
+          <h3>Day</h3>
         </div>
-        <div>
-            <p id="hours">00</p>
-            <span>Hours</span>
+        <div class="container-hour">
+          <h3 class="hour">Time</h3>
+          <h3>hour</h3>
         </div>
-        <div>
-            <p id="minutes">00</p>
-            <span>Minutes</span>
+        <div class="container-minute">
+          <h3 class="minute">Time</h3>
+          <h3>minute</h3>
         </div>
-        <div>
-            <p id="seconds">00</p>
-            <span>Seconds</span>
-        </div>  
+        <div class="container-second">
+          <h3 class="second">Time</h3>
+          <h3>Second</h3>
+        </div>
+      </div>
     </div>
-   </div>
-
-   <script>
-    var countDownDate = new Date("Oct 16, 2022 00:00:00:").getTime();
-    var x = setInterval(function(){
-        var now = new Date().getTime();
-        var distance = countDownDate - now;
-
-        var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-        var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-
-        document.getElementById("days").innerHTML = days;
-        document.getElementById("hours").innerHTML = hours;
-        document.getElementById("minutes").innerHTML = minutes;
-        document.getElementById("seconds").innerHTML = seconds;
-
-    },1000);
-
-   </script>
+    <!-- <img class="waiting" src="./images/example1.jpg" /> -->
+  </section>
+  <script src="soon.js"></script>
 </body>
+
 </html>
