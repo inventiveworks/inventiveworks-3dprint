@@ -6,7 +6,7 @@
 
 body {
     font-family: 'Inter';
-    height: 190vh;
+    height: 270vh;
     width: 100%;
     background:  #101010;
     display: flex;
@@ -43,8 +43,7 @@ form button {
 
 .scroll-div {
     width: auto;
-    overflow: scroll;
+    overflow: hidden;
+    overflow-y: scroll;
 }
-
-
 
