@@ -6,8 +6,8 @@
 
 body {
     font-family: 'Inter';
-    height: 150vh;
-    background: #A020F0;
+    height: 100%;
+    background: #101010;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -40,35 +40,13 @@ form button {
     font-size: 18px;  
 }
 
-.scroll-bg {
-    width: 400px;
-    margin: 10% auto;
-}
 
-.scroll-div {
-    width: 500px;
-    background: rgb(11, 11, 11);
-    height: 650px;
-    overflow: hidden;
-    overflow: scroll;
-}
+
+
 
 .footer-bottom {
     margin-bottom: 50px;
     text-align: center;
-  }
-
-.copyright {
-    color: var(--sonic-silver);
-    font-size: var(--fs-8);
-    font-weight: var(--weight-500);
-    text-transform: capitalize;
-    letter-spacing: 1.2px;
-  }
-  
-  .copyright a {
-    display: inline;
-    color: inherit;
   }
 
 
