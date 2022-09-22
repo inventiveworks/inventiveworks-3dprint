@@ -41,6 +41,10 @@ form button {
     font-size: 18px;  
 }
 
+.scroll-div {
+    width: auto;
+    overflow: scroll;
+}
 
 
 
