@@ -31,8 +31,8 @@ body {
 }
 
 form {
-    background: white;
-    padding: 60px;
+    background: #fff;
+    padding: 100px;
     width: 100%;
     max-width: calc(100% - 60px);
 }
