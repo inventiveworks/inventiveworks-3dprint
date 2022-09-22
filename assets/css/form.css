@@ -4,37 +4,21 @@
     box-sizing: border-box;
 }
 
-
-section {
-    padding: 40px 15%;
-}
-
-.contact {
-    background: #101010;
-    height: 100%;
-    width: 100%;
-    min-height: 100vh;
-    display: grid;
-    grid-template-columns: repeat(2, 2fr);
-    align-items: center;
-    grid-gap: 6rem;
-}
-
-
 body {
     font-family: 'Inter';
-    height: 100%;
-    background: #101010;
+    height: 190vh;
+    width: 100%;
+    background:  #101010;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 form {
-    background: #fff;
-    padding: 100px;
+    background: white;
+    padding: 60px;
     width: 100%;
-    max-width: calc(100% - 60px);
+  
 }
 
 .form-element {
@@ -58,12 +42,5 @@ form button {
 }
 
 
-
-
-
-.footer-bottom {
-    margin-bottom: 50px;
-    text-align: center;
-  }
 
 
