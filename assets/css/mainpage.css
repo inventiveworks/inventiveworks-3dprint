@@ -7,7 +7,7 @@
 
 body {
     min-height: 100vh;
-    background: linear-gradient(45deg, white, black, purple);
+    background: linear-gradient(45deg, white, black);
 }
 
 .navigation {
@@ -174,4 +174,43 @@ button {
   .copyright a {
     display: inline;
     color: inherit;
+  }
+
+
+  /* Maintanence */
+
+  
+body {
+    font-family: "Lato", sans-serif;
+  }
+  
+h2 {
+    font-size: 1%;
+    padding: 1rem;
+  }
+  
+.coming-soon {
+    min-height: 10px;
+    display: flex;
+    align-items: bottom;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+.countdown {
+    display: flex;
+    justify-content: space-around;
+    text-align: bottom;
+    margin-bottom: 1%;
+  }
+  
+.day,
+.hour,
+.minute,
+.second {
+    font-size: 2rem;
+  }
+  
+.waiting {
+    height: 50vh;
   }
