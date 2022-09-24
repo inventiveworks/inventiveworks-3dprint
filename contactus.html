@@ -9,13 +9,16 @@
 </head>
 <body>
 
+    <script type="text/javascript">var submited=false</script>
+    <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='submisivecontactus.html';}"></iframe>
+
     <section class="contact">
         <div class="contact-form">
             <h4>Contact<span> Us</span></h4>
             <p>Any Questions, or a Quote please feel free to contact us.
             </p>
 
-            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScXZmAUaohOZdvwPhpIfWMT9CM2Ztr5vuvurL34N0v-EgbL4A/formResponse" method="post">
+            <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLScXZmAUaohOZdvwPhpIfWMT9CM2Ztr5vuvurL34N0v-EgbL4A/formResponse"  target="hiddenConfirm" onsubmit="submitted=true" method="post">
                 <input type="text"  name="entry.582679317" placeholder="Your Name" required>
                 <input type="text"  name="entry.1318312675" placeholder="E-mail" required>
                 <input type="text"  name="entry.929592155" placeholder="Subject" required>
