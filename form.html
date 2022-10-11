@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/form.css">
+    
+    <title>Customer Order</title>
+</head>
+<body>
+    <script type="text/javascript">var submited=false</script>
+    <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='submisive.html';}"></iframe>
+
+    <div class="scroll-bg">
+        <div class="scroll-div">
+            <div class="scroll-object">
+
+                <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeUXodkjO5lP5m-SQSpRKTKBZacLWBfNaexzxLq3NXEazCKpw/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true">
+
+                    <h1><ul>Order</ul></h1>
+
+                    <div class="form-element">
+                        <span>Name</span>
+                        <input type="text" name="entry.1808829583" placeholder="Name" required="required">
+                    </div>
+                     
+                    <div class="form-element">
+                        <span>Surname</span>
+                        <input type="text" name="entry.422984755" placeholder="Surname" required="required">
+                    </div>
+            
+                    <div class="form-element">
+                        <span>Product Name</span>
+                        <input type="text" name="entry.1552057772" placeholder="E.g: Bunny" required="required">
+                    </div>
+
+                    <div class="form-element">
+                        <span>Quantity</span>
+                        <input type="text" name="entry.231804611" placeholder="Quantity above R1000 - Free Delivery" required="required">
+                    </div>
+
+                    <div class="form-element">
+                        <span>Colour</span>
+                        <input type="text" name="entry.579895151" placeholder="Product colour" required="required">
+                    </div>
+            
+                    
+                    <div class="form-element radio-button">
+                        <span><u>Package</u></span>
+                        <label for="Box - R12">
+                            <span>Box - R12 (Currently Unavailable)</span>
+                            <input type="radio" name="entry.1612425515" id="Box - R12" value="Box - R12" required="required">
+                        </label>
+            
+                        <label for="Bubble wrap - R5">
+                            <span>Bubble wrap - R5</span>
+                            <input type="radio" name="entry.1612425515" id="Bubble wrap - R5" value="Bubble wrap - R5" required="required">
+                        </label>
+                    </div>
+
+                    <div class="form-element radio-button">
+                        <span><u>Custom Name</u></span>
+                        <label for="Yes">
+                            <span>Yes</span>
+                            <input type="radio" name="entry.1041169774" id="Yes" value="Yes" required="required">
+                        </label>
+            
+                        <label for="No">
+                            <span>No</span>
+                            <input type="radio" name="entry.1041169774" id="No" value="No" required="required">
+                        </label>
+                    </div>
+            
+                    <div class="form-element">
+                        <span>Enter Custom Name (only if you selected Yes)</span>
+                        <input type="text" name="entry.2107577001" placeholder="9 characters maximum line 1.">
+                        <input type="text" name="entry.2107577001" placeholder="9 characters maximum line 2.">
+                        <input type="text" name="entry.2107577001" placeholder="9 characters maximum line 3.">
+                    </div>
+                    <details>
+                        <summary><u>Support's Custom Name</u></summary>
+                        <ul>
+                            <li>Phone stand</li>
+                            <li>Card holder</li>
+                        </ul>
+                    </details>
+                    
+                    <br>
+                    
+                    <div class="form-element">
+                        <span>Street Address</span>
+                        <input type="text" name="entry.426779852" placeholder="Street Adress" required="required">
+                    </div>
+            
+                    <div class="form-element">
+                        <span>Suburb</span>
+                        <input type="text" name="entry.188015747" placeholder="Suburb" required="required">
+                    </div>
+            
+                    <div class="form-element">
+                        <span>City</span>
+                        <input type="text" name="entry.248853103" placeholder="City" required="required">
+                    </div>
+            
+                    <div class="form-element">
+                        <span>Postal Code</span>
+                        <input type="text" name="entry.590937973" placeholder="Postal Code" required="required">
+                    </div>
+            
+                    <div class="form-element radio-button">
+                        <span><u>Delivery Option</u></span>
+                        <label for="Delivery Fee - R79">
+                            <span>1) Delivery Fee - R79</span>
+                            <input type="radio" name="entry.1978907658" id="1) Delivery Fee - R79" value="1) Delivery Fee - R79" required="required">
+                        </label>
+            
+                        <label for="Collection">
+                            <span>2) Collection</span>
+                            <input type="radio" name="entry.1978907658" id="2) Collection" value="2) Collection" required="required">
+                        </label>
+                    </div>
+            
+                    <div class="form-element">
+                        <span>Phone Number</span>
+                        <input type="text" name="entry.817555283" placeholder="Phone Number" required="required">
+                    </div>                   
+            
+                    <button type="submit" class="btn">Send Order</button>
+            
+                </form>
+
+            </div>
+        </div>
+    </div>
+       
+</body>
+</html>
