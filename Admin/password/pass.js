@@ -1,4 +1,5 @@
 var password = "!Admin@!"
+
 function passcheck(){
 
     if(document.getElementById('pass1').value != password){
