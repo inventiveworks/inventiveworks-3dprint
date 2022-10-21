@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/Asssets/FORMS/Order-form/form.css">
+        <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+        
+        <title>Customer Order</title>
+    </head>
+    <body>
+        <!--Payment-->
+        <script src="https://js.yoco.com/sdk/v1/yoco-sdk-web.js"></script>
+        <!---->
+        <script type="text/javascript">var submited=false</script>
+        <iframe name="hiddenConfirm" id="hiddenConfirm" style="display: none;" onload="if(submitted){window.location='/Asssets/FORMS/Sent-Order/submisive.html';}"></iframe>
+    
+        <div class="scroll-bg">
+            <div class="scroll-div">
+                <div class="scroll-object">
+    
+                    <form action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSeUXodkjO5lP5m-SQSpRKTKBZacLWBfNaexzxLq3NXEazCKpw/formResponse" method="post" target="hiddenConfirm" onsubmit="submitted=true">
+    
+                        <h1><ul>Order List</ul></h1>
+    
+                        <div class="form-element">
+                            <span><b>Name</b></span>
+                            <input type="text" name="entry.1808829583" placeholder="Name" required="required">
+                        </div>
+                         
+                        <div class="form-element">
+                            <span><b>Suranme</b></span>
+                            <input type="text" name="entry.422984755" placeholder="Surname" required="required">
+                        </div>
+                
+                        <div class="form-element">
+                            <span><b>Product Name</b></span>
+                            <input type="text" name="entry.1552057772" placeholder="E.g: Bunny" required="required">
+                        </div>
+    
+                        <div class="form-element">
+                            <span><b>Quantity</b></span>
+                            <input type="text" name="entry.231804611" placeholder="Quantity above R1000 - Free Delivery" required="required">
+                        </div>
+    
+                        
+                        <div class="form-element">
+                            <details>
+                            <summary><u>Available Colours!</u></summary>
+                            <ul>
+                                <li>Blue</li>
+                                <li>Black</li>
+                                <li>Pink</li>
+                                <li>Baby Blue</li>
+                                <li>Purple</li>
+                                <li>Orange</li>
+                                <li>Green</li>
+                                <li>Red</li>
+                                <li>Brown</li>
+                                <li>Mixed Rainbow Colour</li>
+                                <li>Glow in dark green</li>
+    
+                            </ul>
+                        </details>
+                        <br>
+                            <span><b>Colour</b></span>
+                            <input type="text" name="entry.579895151" placeholder="Product colour" required="required">
+                        </div>
+                
+                        
+                        <div class="form-element radio-button">
+                            <span><b>Package</b></span>
+                            <label for="Box - R12">
+                                <span>Box - R12</span>
+                                <input type="radio" name="entry.1612425515" id="Box - R12" value="Box - R12" required="required">
+                            </label>
+                
+                            <label for="Bubble wrap - R5">
+                                <span>Bubble wrap - R5</span>
+                                <input type="radio" name="entry.1612425515" id="Bubble wrap - R5" value="Bubble wrap - R5" required="required">
+                            </label>
+                        </div>
+    
+                        <div class="form-element radio-button">
+                            <span><b>Custom Name</b></span>
+                            <label for="Yes">
+                                <span>Yes</span>
+                                <input type="radio" name="entry.1041169774" id="Yes" value="Yes" required="required">
+                            </label>
+                
+                            <label for="No">
+                                <span>No</span>
+                                <input type="radio" name="entry.1041169774" id="No" value="No" required="required">
+                            </label>
+                        </div>
+                
+                        <div class="form-element">
+                            <span><b>Enter Custom Name (only if you selected Yes)</b></span>
+                            <input type="text" name="entry.2107577001" placeholder="9 characters maximum line 1.">
+                            <input type="text" name="entry.2107577001" placeholder="9 characters maximum line 2.">
+                            <input type="text" name="entry.2107577001" placeholder="9 characters maximum line 3.">
+                        </div>
+                        <details>
+                            <summary><u>Support's Custom Name</u></summary>
+                            <ul>
+                                <li>Phone stand</li>
+                                <li>Card holder</li>
+                            </ul>
+                        </details>
+                        
+                        <br>
+                        
+                        <div class="form-element">
+                            <span><b>Street Address</b></span>
+                            <input type="text" name="entry.426779852" placeholder="Street Adress" required="required">
+                        </div>
+                
+                        <div class="form-element">
+                            <span><b>Suburb</b></span>
+                            <input type="text" name="entry.188015747" placeholder="Suburb" required="required">
+                        </div>
+                
+                        <div class="form-element">
+                            <span><b>City</b></span>
+                            <input type="text" name="entry.248853103" placeholder="City" required="required">
+                        </div>
+                
+                        <div class="form-element">
+                            <span><b>Postal Code</b></span>
+                            <input type="text" name="entry.590937973" placeholder="Postal Code" required="required">
+                        </div>
+                
+                        <div class="form-element radio-button">
+                            <span><b>Delivery Option</b></span>
+                            <label for="Delivery Fee - R79">
+                                <span>1) Delivery Fee - R79</span>
+                                <input type="radio" name="entry.1978907658" id="1) Delivery Fee - R79" value="1) Delivery Fee - R79" required="required">
+                            </label>
+                
+                            <label for="Collection">
+                                <span>2) Collection</span>
+                                <input type="radio" name="entry.1978907658" id="2) Collection" value="2) Collection" required="required">
+                            </label>
+                        </div>
+                
+                        <div class="form-element">
+                            <span><b>Phone Number</b></span>
+                            <input type="text" name="entry.817555283" placeholder="Phone Number" required="required">
+                        </div>                   
+                
+                        <button type="submit" class="btn">Send Order</button>
+                        
+                    </form>
+                </div>
+            </div>
+        </div>
+<script>
+    var yoco = new window.YocoSDK({
+    publicKey: 'pk_test_ed3c54a6gOol69qa7f45',
+  });
+  var checkoutButton = document.querySelector('#checkout-button');
+  checkoutButton.addEventListener('click', function () {
+    yoco.showPopup({
+      amountInCents: 2799,
+      currency: 'ZAR',
+      name: 'Phonestand',
+      image: 'Capture.png',
+      description: 'Awesome description',
+      callback: function (result) {
+        // This function returns a token that your server can use to capture a payment
+        if (result.error) {
+          const errorMessage = result.error.message;
+          alert("error occured: " + errorMessage);
+        } else {
+          alert("card successfully tokenised: " + result.id);
+        }
+        // In a real integration - you would now pass this chargeToken back to your
+        // server along with the order/basket that the customer has purchased.
+      }
+    })
+  });
+</script>
+
+</body>
+</html>
+    
